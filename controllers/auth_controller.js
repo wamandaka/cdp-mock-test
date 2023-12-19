@@ -68,8 +68,8 @@ const login = async (req, res) => {
           },
           {
             name: identifier,
-          }
-        ]
+          },
+        ],
       },
     });
 
@@ -91,6 +91,8 @@ const login = async (req, res) => {
       },
       "secret"
     );
+
+    // res.render("dashboard", { user, token });
     let resp = ResponseTemplate(token, "login success", null, 200);
     res.json(resp);
     return;
@@ -102,7 +104,23 @@ const login = async (req, res) => {
   }
 };
 
+const logout = async (req, res) => {
+  if (req.session) {
+    req.session.destroy((err) => {
+      if (err) {
+        console.error(err);
+        res.status(500).send("Internal Server Error");
+      } else {
+        res.redirect("/login");
+      }
+    });
+  } else {
+    res.redirect("/auth/login");
+  }
+};
+
 module.exports = {
   register,
   login,
+  logout,
 };
