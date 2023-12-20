@@ -98,7 +98,7 @@ yang telah anda buat berisi penjelasan singkat dan source code.
   ### register account
 
   - [x] POST http://localhost:8080/auth/register
-        - Contoh:
+        - [x] Contoh:
         {
         "name": "nama",
         "email": "email@mail.com",
