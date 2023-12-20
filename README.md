@@ -74,6 +74,16 @@ github
 5. Buatlah video demo berdurasi minimal 5 menit mengenai aplikasi
 yang telah anda buat berisi penjelasan singkat dan source code.
 
+## Jawaban
+1. JSON (JavaScript Object Notation) digunakan pada REST API sebagai format pertukaran data.
+2. REST API (Representational State Transfer Application Programming Interface) bekerja berdasarkan prinsip-prinsip arsitektur REST.
+    - REST API terdiri dari dua komponen utama: klien (client) dan server. Keduanya terpisah dan berkomunikasi melalui protokol HTTP.
+    - REST API menggunakan metode HTTP untuk menentukan jenis operasi yang diinginkan. Metode umum meliputi:
+      - GET: Mendapatkan data dari server.
+      - POST: Mengirim data baru ke server.
+      - PUT: Memperbarui data pada server.
+      - DELETE: Menghapus data pada server.
+
 ## Pengujian Endpoint di postman
 
 ### register account
