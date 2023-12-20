@@ -8,7 +8,7 @@ const swaggerDefinition = {
     },
     servers: [
       {
-        url: "http://localhost:8080",
+        url: "https://cdp-mock-test-production-7724.up.railway.app/",
       },
       {
         url: "http://localhost:3000",
