@@ -126,7 +126,7 @@ yang telah anda buat berisi penjelasan singkat dan source code.
 
   ### Get
 
-  - [x] GET http://localhost:8080/todo/get
+  - [x] GET http://localhost:8080/todo
 
   ### UpdateTitle
 
@@ -156,39 +156,63 @@ yang telah anda buat berisi penjelasan singkat dan source code.
 
 ## Deploy in Railway
 
-### register account
+- Auth
 
-- [x] POST https://challenge-chapter-7-production.up.railway.app/auth/register
-      Contoh:
-      {
-      "name": "nama",
-      "email": "email@mail.com",
-      "password": "pass",
-      "birthdate": "2004-07-11",
-      "age": "19"
-      }
+      ### register account
 
-### login
+      - [x] POST https://cdp-mock-test-production-7724.up.railway.app/auth/register
+            Contoh:
+            {
+            "name": "nama",
+            "email": "email@mail.com",
+            "password": "pass",
+            "pin": "123456"
+            }
 
-- [x] POST https://challenge-chapter-7-production.up.railway.app/auth/login
-      Contoh:
-      {
-      "email": "email@mail.com",
-      "password": "pass"
-      }
+      ### login
 
-### forgot password
+      - [x] POST https://cdp-mock-test-production-7724.up.railway.app/auth/login
+            Contoh:
+            {
+            "identifier": "email@mail.com",
+            "pin": "pass"
+            }
 
-- [x] POST https://challenge-chapter-7-production.up.railway.app/auth/forgotPassword
-      Contoh:
-      {
-      "email": "email@mail.com"
-      }
 
-### reset password
+- Todo
+      ### Create
 
-- [x] PUT https://challenge-chapter-7-production.up.railway.app/auth/resetPassword?token=
-      Contoh:
-      {
-      "newPassword": "password"
-      }
+      - [x] POST https://cdp-mock-test-production-7724.up.railway.app/todo/create
+            Contoh:
+            {
+            "title": "title"
+            }
+
+      ### Get
+
+      - [x] GET https://cdp-mock-test-production-7724.up.railway.app/todo
+
+      ### UpdateTitle
+
+      - [x] PUT https://cdp-mock-test-production-7724.up.railway.app/todo/updateTitle
+            Contoh:
+            {
+            "title": "title",
+            "id": 1
+            }
+
+      ### UpdateTitle
+
+      - [x] PUT https://cdp-mock-test-production-7724.up.railway.app/todo/updateStatus
+            Contoh:
+            {
+            "completed": true
+            }
+
+      ### Delete
+
+      - [x] DELETE https://cdp-mock-test-production-7724.up.railway.app/todo/delete
+            Contoh:
+            {
+            "id": 1
+            }
