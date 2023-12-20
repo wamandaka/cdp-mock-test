@@ -42,7 +42,7 @@ router.post("/create", verifyToken, createTodo);
 
 /**
  * @swagger
- * /todo/get:
+ * /todo:
  *   get:
  *     security:
  *       - bearerAuth: []
@@ -59,7 +59,7 @@ router.post("/create", verifyToken, createTodo);
  *       500:
  *         description: Internal Server Error
  */
-router.get("/get", verifyToken, getTodos);
+router.get("/", verifyToken, getTodos);
 
 /**
  * @swagger
