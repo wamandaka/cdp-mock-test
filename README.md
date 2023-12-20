@@ -11,7 +11,7 @@
 
 ## Criteria
 
-#### Mock Technical Test
+### Mock Technical Test
  - Kemampuan mengerjakan suatu task dalam waktu singkat (terkumpul tepat waktu)
  - Kemampuan membaca dan mengerjakan task sesuai dengan instruksi yang diberikan secara menyeluruh (kesesuaian tugas yang dikumpulkan denagn brief)
  - Originalitas hasil pekerjaan mocktest
@@ -22,6 +22,24 @@
  - Kelengkapan informasi yang disampaikan
  - kejelasan penyampaian informasi
  - Kemampuan menjelaskan langkah-langkah pengerjaan mock test dan alasan dibalik pemilihan solusi atas masalah yang diberikan
+
+## Instruksi
+1. Mock test ini dapat dikerjakan setelah Anda menyelesaikan seluruh course
+technical preparation
+2. Harap baca dengan teliti penugasan pada halaman-halaman berikut dengan
+teliti. Anggaplah diri Anda adalah seorang Software Engineer handal. Dalam
+mengerjakan penugasan berikut, Anda diperbolehkan menggunakan
+referensi atau materi-materi yang kredibel, dengan tetap menyertakan
+sumbernya.
+3. Waktu untuk mengerjakan soal dibawah adalah 3 x 24 Jam.
+4. Penting dipahami bahwa ketepatan waktu pengerjaan soal mock test
+menjadi poin yang sangat penting dalam penilaian pekerjaan seorang
+kandidat
+5. Selesai atau tidak, kandidat harus mengirimkan jawaban sesuai interval waktu
+yang telah ditentukan.
+6. Jika ada kendala atau pertanyaan dalam mengerjakan mock test, silahkan
+mengkomunikasikannya kepada CDP melalui Telegram atau live chat
+Tawk.to.
 
 ## Pengujian Endpoint di postman
 
