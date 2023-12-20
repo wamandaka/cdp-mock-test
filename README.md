@@ -83,6 +83,15 @@ yang telah anda buat berisi penjelasan singkat dan source code.
       - POST: Mengirim data baru ke server.
       - PUT: Memperbarui data pada server.
       - DELETE: Menghapus data pada server.
+3. Website dengan fitur berikut:
+  - User dapat login menggunakan 6 angka berupa pin(bukan otp)
+  - Fitur Todolist
+  - API beserta dokumentasi dalam bentuk SwaggerUI
+4. Hal - hal yang perlu dipastikan adalah:
+  - Saat user A log out, lalu ada user B login, pastikan data yang tertampil adalah data dari user B, dan apabila user A login kembali, data yang terlihat adalah data milik user A
+  - Semua fitur sudah di deploy
+  - Sertakan jawaban, deskripsi fitur, cara login/menggunakan aplikasi dan link website yang telah ter deploy dalam readme github
+5. Video demo berdurasi minilam 5 menit.
 
 ## Pengujian Endpoint di postman
 
