@@ -94,43 +94,65 @@ yang telah anda buat berisi penjelasan singkat dan source code.
 5. Video demo berdurasi minilam 5 menit.
 
 ## Pengujian Endpoint di postman
+- Auth
+  ### register account
 
-### register account
+  - [x] POST http://localhost:8080/auth/register
+        Contoh:
+        {
+        "name": "nama",
+        "email": "email@mail.com",
+        "password": "pass",
+        "pin": "123456"
+        }
 
-- [x] POST http://localhost:8080/auth/register
-      Contoh:
-      {
-      "name": "nama",
-      "email": "email@mail.com",
-      "password": "pass",
-      "birthdate": "2004-07-11",
-      "age": "19"
-      }
+  ### login
 
-### login
+  - [x] POST http://localhost:8080/auth/login
+        Contoh:
+        {
+        "identifier": "email@mail.com",
+        "pin": "pass"
+        }
 
-- [x] POST http://localhost:8080/auth/login
-      Contoh:
-      {
-      "email": "email@mail.com",
-      "password": "pass"
-      }
+- Todo
+  ### Create
 
-### forgot password
+  - [x] POST http://localhost:8080/todo/create
+        Contoh:
+        {
+        "title": "title"
+        }
 
-- [x] POST http://localhost:8080/auth/forgotPassword
-      Contoh:
-      {
-      "email": "email@mail.com"
-      }
+  ### Get
 
-### reset password
+  - [x] GET http://localhost:8080/todo/get
 
-- [x] PUT http://localhost:8080/auth/resetPassword?token=
-      Contoh:
-      {
-      "newPassword": "password"
-      }
+  ### UpdateTitle
+
+  - [x] PUT http://localhost:8080/todo/updateTitle
+        Contoh:
+        {
+        "title": "title",
+        "id": 1
+        }
+
+  ### UpdateTitle
+
+  - [x] PUT http://localhost:8080/todo/updateStatus
+        Contoh:
+        {
+        "completed": true
+        }
+
+  ### Delete
+
+  - [x] DELETE http://localhost:8080/todo/delete
+        Contoh:
+        {
+        "id": 1
+        }
+
 
 ## Deploy in Railway
 
