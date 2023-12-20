@@ -41,6 +41,39 @@ yang telah ditentukan.
 mengkomunikasikannya kepada CDP melalui Telegram atau live chat
 Tawk.to.
 
+## Pertanyaan
+1. Apakah Kegunaan JSON pada REST API?
+2. Jelaskan bagaimana REST API bekerja
+3. Buatlah sebuah website dengan fungsi dibawah ini:
+    - Login/register Page
+User bisa melakukan login dengan menggunakan 6 angka
+berupa pin (bukan otp) setelah melakukan input email atau
+username
+    - Buatlah fitur to do list sederhana di halaman utama. Anda
+diharuskan untuk menggunakan React Redux dan data
+terkoneksi menggunakan API.
+    - Jika anda seorang Full Stack Developer anda diwajibkan untuk
+membuat API beserta Website
+    - Jika anda seorang Backend Developer anda di wajibkan untuk
+membuat API beserta dokumentasi dalam bentuk
+Swagger/Postman
+    - Jika anda seorang Frontend Developer anda bisa menggunakan
+menggunakan https://jsonplaceholder.typicode.com/ sebagai
+fake API
+
+4. Hal - hal yang perlu dipastikan adalah:
+    - Saat user A log out, lalu ada user B login, pastikan data yang
+tertampil adalah data dari user B, dan apabila user A login
+kembali, data yang terlihat adalah data milik user A
+    - Deploy semua fitur dari server side dan client side (bisa
+menggunakan heroku atau netlify)
+    - Sertakan jawaban, deskripsi fitur, cara login/menggunakan
+aplikasi dan link website yang telah ter deploy dalam readme
+github
+
+5. Buatlah video demo berdurasi minimal 5 menit mengenai aplikasi
+yang telah anda buat berisi penjelasan singkat dan source code.
+
 ## Pengujian Endpoint di postman
 
 ### register account
